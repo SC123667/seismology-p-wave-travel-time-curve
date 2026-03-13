@@ -1,7 +1,8 @@
-1. 把 prem.txt 和 p_wave_travel_time_homework.m 放在同一个文件夹里。
-2. 在 MATLAB 里打开这个文件夹。
-3. 直接运行 p_wave_travel_time_homework.m。
-4. 程序会自动生成 2 张图和 1 个结果表。
+1. 先自己准备 PREM 数据文件，文件名写成 prem.txt。
+2. 把 prem.txt 和 p_wave_travel_time_homework.m 放在同一个文件夹里。
+3. 在 MATLAB 里打开这个文件夹。
+4. 直接运行 p_wave_travel_time_homework.m。
+5. 程序会自动生成 2 张图和 1 个结果表。
 
 输出文件说明：
 - 图1_P波走时曲线_0到180度.png：对应题目(a)
@@ -10,5 +11,6 @@
 
 说明：
 - 程序用的是 prem.txt 第 1 列深度和第 3 列 P 波速度。
+- prem.txt 是文本表格文件，每一行对应一个深度节点或采样点。
 - 地心位置做扁平化会发散，所以程序把最后一个点稍微往上移了 1 km。
 - 这个程序是简化数值积分写法，风格偏课程作业、偏 MATLAB 新手。
